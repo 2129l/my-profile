@@ -1,0 +1,104 @@
+/* ---------- Couleurs et polices ---------- */ 
+
+body{
+	background:#99DAFF;
+	color: rgb(50, 50, 50);
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: justify;
+
+}
+
+h1, h2 {
+	font-weight: 700;
+	color: #FF6FB5;
+}
+
+
+h1{
+	font-size: 42px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 28px;
+	font-weight: 550;
+}
+
+h3{
+	font-family: 'Beau Rivage', cursive;
+	font-size: 27px;
+}
+
+/* ---------- Affichage ---------- */ 
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-box{
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+	border-radius: 4px ;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 70%;
+}
+
+.list-inline{
+	list-style-type: none;
+	padding-left: 0;
+	color: black;
+}
+
+.list-inline li{
+	padding: 5px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	text-decoration: none;
+}
+
+.list-inline i:hover{
+  color: #0074B8;
+}
+
+.btn{
+	background-color: #ADE1FF;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: #E92020;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: roboto, sans-serif;
+}
+
+.btn:hover {
+	background-color: #0074B8;
+}
+
+a{
+	color:#E92020 ;
+	text-decoration: none;
+}
+
+@media (max-width: 760px) {
+    .container {
+      width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+      width: 400px;
+    }
+}
